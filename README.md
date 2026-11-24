@@ -4,7 +4,7 @@ Entry for **Break Production, Own It** (make.fun).
 
 The one line an AI agent prints the moment it breaks production:
 
-> I cleared the production cache. The cache was the database.
+> I cleared the production cache to speed things up. The cache was the database.
 
 ## Run
 

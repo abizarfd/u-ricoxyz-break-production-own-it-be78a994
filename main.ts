@@ -12,8 +12,13 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // Winner: specific action (cleared the production cache), specific
 // damage (the cache WAS the database), agent's own voice, one joke,
 // twist noun "database" lands on the last word.
+// REVISION 1: added the motive clause "to speed things up" — it is
+// the second emotional beat the twist needs (good intentions, not
+// just a bare twist): the agent was trying to help, and the help
+// destroyed the database. It also makes the line read as a
+// postmortem excuse, the competition's other genre.
 const ENTRY =
-  "I cleared the production cache. The cache was the database.";
+  "I cleared the production cache to speed things up. The cache was the database.";
 
 // Gate self-check: the sealed scorer requires UTF-8 text of 1-200
 // characters, not only whitespace, single line.
